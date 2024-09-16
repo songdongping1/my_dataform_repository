@@ -1,0 +1,29 @@
+{
+  "environments": [
+    {
+      "name": "production",
+      "configOverride": {},
+      "schedules": [
+        {
+          "name": "daily",
+          "cron": "34 14 * * mon,tue,wed,thu,fri,sat,sun",
+          "tags": [
+            "daily"
+          ]
+        },
+        {
+          "name": "hourly",
+          "cron": "6 */1 * * *",
+          "tags": [
+            "reporting"
+          ]
+        }
+      ],
+      "gitRef": "master"
+    },
+    {
+      "name": "dev",
+      "gitRef": "master"
+    }
+  ]
+}

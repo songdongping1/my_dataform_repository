@@ -1,0 +1,14 @@
+{
+    "warehouse": "COMPUTE_WH",
+    "defaultSchema": "ODS",
+    "snowflake": {
+        "account": "https://hgkmslc-eg10521.snowflakecomputing.com",
+        "region": "Asia Pacific (Tokyo)",
+        "username": "Wlf",
+        "password": "For9004+-",
+        "role": "ACCOUNTADMIN",
+        "warehouse": "COMPUTE_WH",
+        "database": "ORDER_MANAGEMENT",
+        "schema": "ODS"
+    }
+}
