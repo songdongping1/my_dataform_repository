@@ -1,5 +1,0 @@
-dataformCoreVersion: 3.0.2
-defaultProject: ORDER_MANAGEMENT
-defaultLocation: https://app.snowflake.com/hgkmslc/eg10521/#/data/databases/ORDER_MANAGEMENT
-defaultDataset: dataform
-defaultAssertionDataset: dataform_assertions

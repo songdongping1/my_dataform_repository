@@ -1,0 +1,7 @@
+config {
+  type: "declaration",
+  database: "ORDER_MANAGEMENT",
+  schema: "ODS",
+  name: "address",
+  description: "address table"
+}
