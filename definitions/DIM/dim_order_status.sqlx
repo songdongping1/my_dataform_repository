@@ -1,6 +1,7 @@
 config {
   type: "table",
   description: "This table contains all information about orders",
+  schema: "DIM",
   columns: {
     hjmp_ver_num: "HJMP Version Number",
     create_dtime: "Create Date Time",
@@ -154,4 +155,4 @@ config {
 select
   *
 from
-order
+ODS.`order`
